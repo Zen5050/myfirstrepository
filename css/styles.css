@@ -1,0 +1,64 @@
+/* style.css */
+
+/* Resetting body margins and padding */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efeee7;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #333333;
+  }
+  
+  /* Styling header */
+  header {
+    background-color: #333333;
+    padding: 10px 0; /* Example padding, adjust as needed */
+  }
+  
+  /* Styling header h1 */
+  header h1 {
+    color: #eee;
+    font-size: 28px;
+    /* Add padding and/or margins as per the demo.png */
+  }
+  
+  /* Styling header h2 */
+  header h2 {
+    font-size: 24px;
+  }
+  
+  /* Styling container */
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  /* Styling sections */
+  section {
+    float: left;
+  }
+  
+  /* Styling main bio section */
+  #main-bio {
+    width: 70%;
+  }
+  
+  /* Styling contact info section */
+  #contact-info {
+    width: 30%;
+  }
+  
+  /* Styling bio image */
+  #bio-image {
+    width: 200px;
+    margin-right: 20px; /* Example margin, adjust as needed */
+  }
+  
+  /* Adjusting line height */
+  body, p {
+    line-height: 1.5;
+  }
+  /* Styling links */
+a {
+    color: #d21034;
+  }
