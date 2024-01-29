@@ -1,64 +1,80 @@
-/* style.css */
-
-/* Resetting body margins and padding */
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #efeee7;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #333333;
-  }
-  
-  /* Styling header */
-  header {
-    background-color: #333333;
-    padding: 10px 0; /* Example padding, adjust as needed */
-  }
-  
-  /* Styling header h1 */
-  header h1 {
-    color: #eee;
-    font-size: 28px;
-    /* Add padding and/or margins as per the demo.png */
-  }
-  
-  /* Styling header h2 */
-  header h2 {
-    font-size: 24px;
-  }
-  
-  /* Styling container */
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
-  /* Styling sections */
-  section {
-    float: left;
-  }
-  
-  /* Styling main bio section */
-  #main-bio {
-    width: 70%;
-  }
-  
-  /* Styling contact info section */
-  #contact-info {
-    width: 30%;
-  }
-  
-  /* Styling bio image */
-  #bio-image {
-    width: 200px;
-    margin-right: 20px; /* Example margin, adjust as needed */
-  }
-  
-  /* Adjusting line height */
-  body, p {
-    line-height: 1.5;
-  }
-  /* Styling links */
+  margin: 0;
+  padding: 0;
+  background-color: #efeee7;
+  font: Georgia,"Times New Roman",Times,serif;
+  color: #333333;
+  text-decoration: #d21034;
+}
+
+h1 {
+  color: #eee;
+  font-size: 28px;
+}
+
+.header {
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1024px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.photo-container {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+#main-bio {
+  float: left;
+  width: 70%;
+}
+
+#main-bio p {
+  margin-top: 65px;
+}
+
+#bio-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#contact-info, #contact-info h2, #contact-info ul li {
+  float: left;
+}
+
+#contact-info ul {
+  margin-top: 70px;
+}
+
+.description {
+  flex: 1;
+  margin-bottom: 20px; /* Adjust spacing between description and paragraph */
+}
+
+.contact-info {
+  flex: 0 0 auto;
+  text-align: right;
+  width: 30%;
+  line-height: 16px
+}
+
+/* Optional: Adjust photo size */
+.photo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 a {
-    color: #d21034;
-  }
+  text-decoration: #d21034;
+}
